@@ -1,0 +1,30 @@
+package L4part2;
+
+public class Wheel {
+private String material;
+private int size;
+public Wheel(String material, int size) {
+	super();
+	this.material = material;
+	this.size = size;
+}
+public String getMaterial() {
+	return material;
+}
+public void setMaterial(String material) {
+	this.material = material;
+}
+public int getSize() {
+	return size;
+}
+public void setSize(int size) {
+	this.size = size;
+}
+@Override
+public String toString() {
+	return "Wheel [material=" + material + ", size=" + size + "]";
+}
+public void changeMaterial(String anotherMaterial) {
+	this.material=anotherMaterial;
+}
+}
