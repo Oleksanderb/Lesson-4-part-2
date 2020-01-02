@@ -1,0 +1,11 @@
+package L4part2;
+
+public class App {public static void main(String[] args) {
+	
+	Car car=new Car("Family Car","Black");
+	System.out.println(car);
+	Car car2=new Car("Sport Car","Red","Carbon","leather","ninetee");
+	System.out.println(car2);
+}
+
+}
