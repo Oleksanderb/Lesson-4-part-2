@@ -1,0 +1,61 @@
+package L4part2;
+
+public class Car {
+	private String type;
+	private String color;
+	
+	private String body;
+	private String SteeringWhel;
+	private String Wheel;
+
+
+public Car(String type, String color) {
+	super();
+	this.type=type;
+	this.color=color;
+}
+	public Car(String type, String color,String body,String SteeringWhel, String Wheel) {
+		super();
+	this.type=type;
+	this.color=color;
+	this.body=body;
+	this.SteeringWhel=SteeringWhel;
+	this.Wheel=Wheel;
+}
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
+	public String getBody() {
+		return body;
+	}
+	public void setBody(String body) {
+		this.body = body;
+	}
+	public String getSteeringWhel() {
+		return SteeringWhel;
+	}
+	public void setSteeringWhel(String steeringWhel) {
+		SteeringWhel = steeringWhel;
+	}
+	public String getWheel() {
+		return Wheel;
+	}
+	public void setWheel(String wheel) {
+		Wheel = wheel;
+	}
+	@Override
+	public String toString() {
+		return "Car [type=" + type + ", color=" + color + ", body=" + body + ", SteeringWhel=" + SteeringWhel
+				+ ", Wheel=" + Wheel + "]";
+	}
+
+}
