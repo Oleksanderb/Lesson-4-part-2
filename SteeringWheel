@@ -2,29 +2,24 @@ package L4part2;
 
 public class SteeringWheel {
 private String type;
-private int size;
-public SteeringWheel(String type, int size){
+
+public SteeringWheel(String type){
 	super();
 	this.type=type;
-	this.size=size;
+	
 }
+
 public String getType() {
 	return type;
 }
+
 public void setType(String type) {
 	this.type = type;
 }
-public int getSize() {
-	return size;
-}
-public void setSize(int size) {
-	this.size = size;
-}
+
 @Override
 public String toString() {
-	return "SteeringWheel [type=" + type + ", size=" + size + "]";
+	return "SteeringWheel [type=" + type + "]";
 }
-public void changeSize(int secondSize) {
-	this.size=secondSize;
-}
+
 }
