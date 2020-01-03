@@ -14,7 +14,7 @@ public class Car {
 		this.type=type;
 		this.color=color;
 	}
-	public Car(String type, String color,Body body,SteeringWheel SteeringWheel, Wheel Wheel) {
+	public Car(String type, String color,Body body, SteeringWheel SteeringWheel, Wheel Wheel) {
 		super();
 	this.type=type;
 	this.color=color;
@@ -32,10 +32,10 @@ public class Car {
 		this.body = body;
 	}
 	public void setSteeringWheel(SteeringWheel steeringWheel) {
-		SteeringWheel = steeringWheel;
+		this.SteeringWheel = steeringWheel;
 	}
 	public void setWheel(Wheel wheel) {
-		Wheel = wheel;
+		this.Wheel = wheel;
 	}
 	public String getType() {
 		return type;
