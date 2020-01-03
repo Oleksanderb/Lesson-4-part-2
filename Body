@@ -1,19 +1,15 @@
 package L4part2;
 
 public class Body {
-private int size;
+
 private String color;
-public Body(int size, String color) {
+public Body(String color) {
 	super();
-	this.size=size;
+	
 	this.color=color;
 }
-public int getSize() {
-	return size;
-}
-public void setSize(int size) {
-	this.size = size;
-}
+
+
 public String getColor() {
 	return color;
 }
@@ -22,7 +18,7 @@ public void setColor(String color) {
 }
 @Override
 public String toString() {
-	return "Body [size=" + size + ", color=" + color + "]";
+	return "Body [color=" + color + "]";
 }
 public void changeColor(String newColor) {
 	this.color=newColor;
