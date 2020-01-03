@@ -4,7 +4,7 @@ public class App {public static void main(String[] args) {
 	
 	Car car=new Car("Family Car","Black");
 	System.out.println(car);
-	Car car2=new Car("Sport Car","Red","Carbon","leather","ninetee");
+	Car car2=new Car("Sport Car","Red",new Body("Carbon"),new SteeringWheel("ninetee"), new Wheel("leather"));
 	System.out.println(car2);
 }
 
